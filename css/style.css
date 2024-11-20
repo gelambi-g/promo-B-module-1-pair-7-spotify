@@ -1,0 +1,21 @@
+.articulo {
+    display: flex;
+}
+
+.img {
+
+}
+
+footer>div {
+    display: inline;
+    background-color: aquamarine;
+    width: 50px;
+}
+
+p {
+    background-color: bisque;
+}
+
+.footer-list li {
+    display: inline;
+}
