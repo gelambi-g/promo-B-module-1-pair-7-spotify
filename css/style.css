@@ -1,5 +1,7 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32.5%;
+    font-size: 1rem;
 }
 
 header {
@@ -11,16 +13,16 @@ header {
     height: 100px;
     flex-direction: row;
     align-items: center;
+    padding: 20px;
 }
 
 .logo {
-    height: 55%;
-    margin: 20px;
+    height: 40%;
 }
 
 .hamburguesa {
-    height: 50px;
-    margin: 20px;
+    height: 40px;
+    
 }
 
 .menu {
@@ -35,10 +37,11 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50vh;
+    height: 50%;
     justify-content: flex-end;
     box-sizing: border-box;
     padding-bottom: 20px;
+    
 }
 
 .texto-premium {
@@ -61,19 +64,30 @@ header {
     color: white;
 }
 
+.section2  {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+
+.premium {
+    width: 60%;
+    text-align: center;
+    
+}
+
 .articulo {
     display: flex;
+    width: 80%;
+    justify-content: center;
 }
 
 .img {
     width: 100px;
 }
 
-footer>div {
-    display: inline;
-    background-color: aquamarine;
-    width: 50px;
-}
 
 .textofinal {
     background-color: bisque;
@@ -83,3 +97,9 @@ footer>div {
     display: inline;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
