@@ -41,12 +41,26 @@ header {
     justify-content: flex-end;
     box-sizing: border-box;
     padding-bottom: 20px;
-    
+    padding-top: 100px;
 }
 
-.texto-premium {
+.titulo-premium {
     color: white;
     margin: 20px;
+    font-size: 2.5rem;
+}
+
+.texto-premium1 {
+    color: white;
+    margin: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.texto-premium2 {
+    color: white;
+    margin: 20px;
+    font-size: 0.8rem;
 }
 
 .cajaplanes {
@@ -58,8 +72,8 @@ header {
     background-color: rgb(38 183 88);
     border-radius: 20px;
     padding: 10px;
-/*     padding-left: 40%;
-    padding-right: 40%; */
+    padding-left: 120px;
+    padding-right: 120px; 
     text-decoration: none;
     color: white;
 }
@@ -69,37 +83,62 @@ header {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 
 .premium {
     width: 60%;
     text-align: center;
-    
+    font-size: 1.8rem;
 }
 
 .articulo {
     display: flex;
     width: 80%;
     justify-content: center;
+    align-items: center;
+}
+
+.texto-article {
+    width: 220px;
+    margin-left: 20px;
 }
 
 .img {
     width: 100px;
+    height: 100px;
 }
 
+.h3 {
+    font-size: 1.2rem;
+}
 
 .textofinal {
-    background-color: bisque;
+    
 }
 
 .footer-list li {
-    display: inline;
+    list-style: none;
 }
 
+.contacto {
+    padding: 10px
+}
 footer {
     background-color: black;
     color: white;
+    padding: 20px;
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    font-size: 0.5rem;
+}
+
+.es {
+    width: 20px;
 }
