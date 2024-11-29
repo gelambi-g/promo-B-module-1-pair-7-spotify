@@ -1,0 +1,46 @@
+.section1 {
+    font-size: white;
+    background-color:rgb(82 156 241);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.titulo-premium {
+    color: white;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+.texto-premium1 {
+    color: white;
+    margin: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.texto-premium2 {
+    color: white;
+    margin: 20px;
+    font-size: 0.8rem;
+}
+
+.cajaplanes {
+    display: flex;
+    justify-content: center;
+}
+
+.planes {
+    background-color: rgb(38 183 88);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 120px;
+    padding-right: 120px; 
+    text-decoration: none;
+    color: white;
+}

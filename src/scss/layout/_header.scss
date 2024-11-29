@@ -1,1 +1,24 @@
-//contenido
+header {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 40%;
+}
+
+.hamburguesa {
+    height: 40px;
+    
+}
+
+.menu {
+    display: none;
+}

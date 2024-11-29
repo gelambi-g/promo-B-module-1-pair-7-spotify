@@ -1,1 +1,23 @@
-//contenido
+.footer-list li {
+    list-style: none;
+}
+
+.contacto {
+    padding: 10px
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    font-size: 0.5rem;
+}
+
+.es {
+    width: 20px;
+}
