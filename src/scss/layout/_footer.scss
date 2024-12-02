@@ -5,6 +5,7 @@
 .contacto {
     padding: 10px
 }
+
 footer {
     background-color: black;
     color: white;
@@ -16,6 +17,21 @@ footer {
 
 .footer {
     font-size: 0.5rem;
+}
+
+.footer-izq {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+
+p {
+    padding: 5px;
+}
+
+li {
+    line-height: 2.3;
 }
 
 .es {
